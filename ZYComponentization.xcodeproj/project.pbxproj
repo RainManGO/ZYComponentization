@@ -13,6 +13,23 @@
 		181110831F4AC4DD007AA272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181110821F4AC4DD007AA272 /* Assets.xcassets */; };
 		181110861F4AC4DD007AA272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181110841F4AC4DD007AA272 /* LaunchScreen.storyboard */; };
 		181110891F4AC4DD007AA272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110881F4AC4DD007AA272 /* main.m */; };
+		181110A41F4AD10E007AA272 /* MapViewCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110A31F4AD10E007AA272 /* MapViewCotroller.m */; };
+		181110A91F4AD1ED007AA272 /* DiDiSijiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110A71F4AD1ED007AA272 /* DiDiSijiViewController.m */; };
+		181110AA1F4AD1ED007AA272 /* DiDiSijiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181110A81F4AD1ED007AA272 /* DiDiSijiViewController.xib */; };
+		181110AE1F4AD22B007AA272 /* DiDiCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110AC1F4AD22B007AA272 /* DiDiCustomerViewController.m */; };
+		181110AF1F4AD22B007AA272 /* DiDiCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181110AD1F4AD22B007AA272 /* DiDiCustomerViewController.xib */; };
+		181110B31F4AD241007AA272 /* QQZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110B11F4AD241007AA272 /* QQZoneViewController.m */; };
+		181110B41F4AD241007AA272 /* QQZoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181110B21F4AD241007AA272 /* QQZoneViewController.xib */; };
+		181110B81F4AD2F2007AA272 /* QQListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110B61F4AD2F2007AA272 /* QQListViewController.m */; };
+		181110B91F4AD2F2007AA272 /* QQListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181110B71F4AD2F2007AA272 /* QQListViewController.xib */; };
+		181110BD1F4AD31F007AA272 /* MyShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110BB1F4AD31F007AA272 /* MyShopViewController.m */; };
+		181110BE1F4AD31F007AA272 /* MyShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181110BC1F4AD31F007AA272 /* MyShopViewController.xib */; };
+		181110C11F4AD3BB007AA272 /* Target_DiDi.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110C01F4AD3BB007AA272 /* Target_DiDi.m */; };
+		181110C41F4AD44C007AA272 /* Target_QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110C31F4AD44C007AA272 /* Target_QQ.m */; };
+		181110C71F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110C61F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.m */; };
+		181110CF1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 181110CE1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.m */; };
+		1892FDF71F4BC579008BD927 /* CTMediator+ZYWildShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892FDF61F4BC579008BD927 /* CTMediator+ZYWildShop.m */; };
+		F0E9BB660FF7C7EB94E90C8E /* Pods_ZYComponentization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C8275BFF880A7C4692E752 /* Pods_ZYComponentization.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,36 @@
 		181110851F4AC4DD007AA272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181110871F4AC4DD007AA272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181110881F4AC4DD007AA272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181110A21F4AD10E007AA272 /* MapViewCotroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewCotroller.h; sourceTree = "<group>"; };
+		181110A31F4AD10E007AA272 /* MapViewCotroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewCotroller.m; sourceTree = "<group>"; };
+		181110A61F4AD1ED007AA272 /* DiDiSijiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiDiSijiViewController.h; sourceTree = "<group>"; };
+		181110A71F4AD1ED007AA272 /* DiDiSijiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiDiSijiViewController.m; sourceTree = "<group>"; };
+		181110A81F4AD1ED007AA272 /* DiDiSijiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiDiSijiViewController.xib; sourceTree = "<group>"; };
+		181110AB1F4AD22B007AA272 /* DiDiCustomerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiDiCustomerViewController.h; sourceTree = "<group>"; };
+		181110AC1F4AD22B007AA272 /* DiDiCustomerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiDiCustomerViewController.m; sourceTree = "<group>"; };
+		181110AD1F4AD22B007AA272 /* DiDiCustomerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiDiCustomerViewController.xib; sourceTree = "<group>"; };
+		181110B01F4AD241007AA272 /* QQZoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQZoneViewController.h; sourceTree = "<group>"; };
+		181110B11F4AD241007AA272 /* QQZoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZoneViewController.m; sourceTree = "<group>"; };
+		181110B21F4AD241007AA272 /* QQZoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QQZoneViewController.xib; sourceTree = "<group>"; };
+		181110B51F4AD2F2007AA272 /* QQListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQListViewController.h; sourceTree = "<group>"; };
+		181110B61F4AD2F2007AA272 /* QQListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQListViewController.m; sourceTree = "<group>"; };
+		181110B71F4AD2F2007AA272 /* QQListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QQListViewController.xib; sourceTree = "<group>"; };
+		181110BA1F4AD31F007AA272 /* MyShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyShopViewController.h; sourceTree = "<group>"; };
+		181110BB1F4AD31F007AA272 /* MyShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShopViewController.m; sourceTree = "<group>"; };
+		181110BC1F4AD31F007AA272 /* MyShopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShopViewController.xib; sourceTree = "<group>"; };
+		181110BF1F4AD3BB007AA272 /* Target_DiDi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_DiDi.h; sourceTree = "<group>"; };
+		181110C01F4AD3BB007AA272 /* Target_DiDi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_DiDi.m; sourceTree = "<group>"; };
+		181110C21F4AD44C007AA272 /* Target_QQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_QQ.h; sourceTree = "<group>"; };
+		181110C31F4AD44C007AA272 /* Target_QQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_QQ.m; sourceTree = "<group>"; };
+		181110C51F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ZYDiDiMouduleActions.h"; sourceTree = "<group>"; };
+		181110C61F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ZYDiDiMouduleActions.m"; sourceTree = "<group>"; };
+		181110CD1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ZYQQMouduleActions.h"; sourceTree = "<group>"; };
+		181110CE1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ZYQQMouduleActions.m"; sourceTree = "<group>"; };
+		1892FDF51F4BC579008BD927 /* CTMediator+ZYWildShop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ZYWildShop.h"; sourceTree = "<group>"; };
+		1892FDF61F4BC579008BD927 /* CTMediator+ZYWildShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ZYWildShop.m"; sourceTree = "<group>"; };
+		6412B064D32FF022F9D91496 /* Pods-ZYComponentization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYComponentization.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYComponentization/Pods-ZYComponentization.release.xcconfig"; sourceTree = "<group>"; };
+		64A837496D89701AAF38B46A /* Pods-ZYComponentization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYComponentization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYComponentization/Pods-ZYComponentization.debug.xcconfig"; sourceTree = "<group>"; };
+		70C8275BFF880A7C4692E752 /* Pods_ZYComponentization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYComponentization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E9BB660FF7C7EB94E90C8E /* Pods_ZYComponentization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +92,8 @@
 			children = (
 				181110781F4AC4DD007AA272 /* ZYComponentization */,
 				181110771F4AC4DD007AA272 /* Products */,
+				888F5DC11A4149B3F94CF378 /* Pods */,
+				FE537EAD585180BF9F71042B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +108,11 @@
 		181110781F4AC4DD007AA272 /* ZYComponentization */ = {
 			isa = PBXGroup;
 			children = (
+				181110C81F4AD50A007AA272 /* Categories */,
+				181110A01F4AC898007AA272 /* 公共模块 */,
+				1811109D1F4AC605007AA272 /* 内部业务（滴滴打车） */,
+				1811109A1F4AC605007AA272 /* 内部业务（QQ聊天） */,
+				181110981F4AC605007AA272 /* 外部业务  */,
 				181110791F4AC4DD007AA272 /* AppDelegate.h */,
 				1811107A1F4AC4DD007AA272 /* AppDelegate.m */,
 				1811107C1F4AC4DD007AA272 /* ViewController.h */,
@@ -71,6 +126,165 @@
 			path = ZYComponentization;
 			sourceTree = "<group>";
 		};
+		181110981F4AC605007AA272 /* 外部业务  */ = {
+			isa = PBXGroup;
+			children = (
+				181110991F4AC605007AA272 /* 调起商城买东西 */,
+			);
+			path = "外部业务 ";
+			sourceTree = "<group>";
+		};
+		181110991F4AC605007AA272 /* 调起商城买东西 */ = {
+			isa = PBXGroup;
+			children = (
+				181110BA1F4AD31F007AA272 /* MyShopViewController.h */,
+				181110BB1F4AD31F007AA272 /* MyShopViewController.m */,
+				181110BC1F4AD31F007AA272 /* MyShopViewController.xib */,
+			);
+			path = "调起商城买东西";
+			sourceTree = "<group>";
+		};
+		1811109A1F4AC605007AA272 /* 内部业务（QQ聊天） */ = {
+			isa = PBXGroup;
+			children = (
+				181110C21F4AD44C007AA272 /* Target_QQ.h */,
+				181110C31F4AD44C007AA272 /* Target_QQ.m */,
+				1811109B1F4AC605007AA272 /* QQ空间 */,
+				1811109C1F4AC605007AA272 /* 好友列表 */,
+			);
+			path = "内部业务（QQ聊天）";
+			sourceTree = "<group>";
+		};
+		1811109B1F4AC605007AA272 /* QQ空间 */ = {
+			isa = PBXGroup;
+			children = (
+				181110B01F4AD241007AA272 /* QQZoneViewController.h */,
+				181110B11F4AD241007AA272 /* QQZoneViewController.m */,
+				181110B21F4AD241007AA272 /* QQZoneViewController.xib */,
+			);
+			path = "QQ空间";
+			sourceTree = "<group>";
+		};
+		1811109C1F4AC605007AA272 /* 好友列表 */ = {
+			isa = PBXGroup;
+			children = (
+				181110B51F4AD2F2007AA272 /* QQListViewController.h */,
+				181110B61F4AD2F2007AA272 /* QQListViewController.m */,
+				181110B71F4AD2F2007AA272 /* QQListViewController.xib */,
+			);
+			path = "好友列表";
+			sourceTree = "<group>";
+		};
+		1811109D1F4AC605007AA272 /* 内部业务（滴滴打车） */ = {
+			isa = PBXGroup;
+			children = (
+				181110BF1F4AD3BB007AA272 /* Target_DiDi.h */,
+				181110C01F4AD3BB007AA272 /* Target_DiDi.m */,
+				1811109E1F4AC605007AA272 /* 司机 */,
+				1811109F1F4AC605007AA272 /* 打车 */,
+			);
+			path = "内部业务（滴滴打车）";
+			sourceTree = "<group>";
+		};
+		1811109E1F4AC605007AA272 /* 司机 */ = {
+			isa = PBXGroup;
+			children = (
+				181110A61F4AD1ED007AA272 /* DiDiSijiViewController.h */,
+				181110A71F4AD1ED007AA272 /* DiDiSijiViewController.m */,
+				181110A81F4AD1ED007AA272 /* DiDiSijiViewController.xib */,
+			);
+			path = "司机";
+			sourceTree = "<group>";
+		};
+		1811109F1F4AC605007AA272 /* 打车 */ = {
+			isa = PBXGroup;
+			children = (
+				181110AB1F4AD22B007AA272 /* DiDiCustomerViewController.h */,
+				181110AC1F4AD22B007AA272 /* DiDiCustomerViewController.m */,
+				181110AD1F4AD22B007AA272 /* DiDiCustomerViewController.xib */,
+			);
+			path = "打车";
+			sourceTree = "<group>";
+		};
+		181110A01F4AC898007AA272 /* 公共模块 */ = {
+			isa = PBXGroup;
+			children = (
+				181110A11F4AC8A9007AA272 /* 地图 */,
+			);
+			path = "公共模块";
+			sourceTree = "<group>";
+		};
+		181110A11F4AC8A9007AA272 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				181110A21F4AD10E007AA272 /* MapViewCotroller.h */,
+				181110A31F4AD10E007AA272 /* MapViewCotroller.m */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		181110C81F4AD50A007AA272 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				181110CB1F4AD534007AA272 /* 外部 */,
+				181110CA1F4AD525007AA272 /* 内部 */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		181110C91F4AD51A007AA272 /* DiDi */ = {
+			isa = PBXGroup;
+			children = (
+				181110C51F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.h */,
+				181110C61F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.m */,
+			);
+			path = DiDi;
+			sourceTree = "<group>";
+		};
+		181110CA1F4AD525007AA272 /* 内部 */ = {
+			isa = PBXGroup;
+			children = (
+				181110CC1F4ADB02007AA272 /* QQ */,
+				181110C91F4AD51A007AA272 /* DiDi */,
+			);
+			path = "内部";
+			sourceTree = "<group>";
+		};
+		181110CB1F4AD534007AA272 /* 外部 */ = {
+			isa = PBXGroup;
+			children = (
+				1892FDF51F4BC579008BD927 /* CTMediator+ZYWildShop.h */,
+				1892FDF61F4BC579008BD927 /* CTMediator+ZYWildShop.m */,
+			);
+			path = "外部";
+			sourceTree = "<group>";
+		};
+		181110CC1F4ADB02007AA272 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				181110CD1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.h */,
+				181110CE1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.m */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		888F5DC11A4149B3F94CF378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64A837496D89701AAF38B46A /* Pods-ZYComponentization.debug.xcconfig */,
+				6412B064D32FF022F9D91496 /* Pods-ZYComponentization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE537EAD585180BF9F71042B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C8275BFF880A7C4692E752 /* Pods_ZYComponentization.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1811108C1F4AC4DD007AA272 /* Build configuration list for PBXNativeTarget "ZYComponentization" */;
 			buildPhases = (
+				4F3B1CE9D3DCB0B5E54CDBFB /* [CP] Check Pods Manifest.lock */,
 				181110721F4AC4DD007AA272 /* Sources */,
 				181110731F4AC4DD007AA272 /* Frameworks */,
 				181110741F4AC4DD007AA272 /* Resources */,
+				D6089B12CB7E0DB578033A64 /* [CP] Embed Pods Frameworks */,
+				4FFA661F36D23ED2FEEFF37F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,22 +345,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181110BE1F4AD31F007AA272 /* MyShopViewController.xib in Resources */,
+				181110AF1F4AD22B007AA272 /* DiDiCustomerViewController.xib in Resources */,
 				181110861F4AC4DD007AA272 /* LaunchScreen.storyboard in Resources */,
 				181110831F4AC4DD007AA272 /* Assets.xcassets in Resources */,
 				181110811F4AC4DD007AA272 /* Main.storyboard in Resources */,
+				181110B91F4AD2F2007AA272 /* QQListViewController.xib in Resources */,
+				181110B41F4AD241007AA272 /* QQZoneViewController.xib in Resources */,
+				181110AA1F4AD1ED007AA272 /* DiDiSijiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F3B1CE9D3DCB0B5E54CDBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFA661F36D23ED2FEEFF37F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYComponentization/Pods-ZYComponentization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6089B12CB7E0DB578033A64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYComponentization/Pods-ZYComponentization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		181110721F4AC4DD007AA272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181110C71F4AD4F3007AA272 /* CTMediator+ZYDiDiMouduleActions.m in Sources */,
+				181110A91F4AD1ED007AA272 /* DiDiSijiViewController.m in Sources */,
+				181110C41F4AD44C007AA272 /* Target_QQ.m in Sources */,
+				181110A41F4AD10E007AA272 /* MapViewCotroller.m in Sources */,
+				181110CF1F4ADB32007AA272 /* CTMediator+ZYQQMouduleActions.m in Sources */,
+				181110B31F4AD241007AA272 /* QQZoneViewController.m in Sources */,
+				1892FDF71F4BC579008BD927 /* CTMediator+ZYWildShop.m in Sources */,
+				181110AE1F4AD22B007AA272 /* DiDiCustomerViewController.m in Sources */,
 				1811107E1F4AC4DD007AA272 /* ViewController.m in Sources */,
 				181110891F4AC4DD007AA272 /* main.m in Sources */,
+				181110B81F4AD2F2007AA272 /* QQListViewController.m in Sources */,
 				1811107B1F4AC4DD007AA272 /* AppDelegate.m in Sources */,
+				181110C11F4AD3BB007AA272 /* Target_DiDi.m in Sources */,
+				181110BD1F4AD31F007AA272 /* MyShopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +552,7 @@
 		};
 		1811108D1F4AC4DD007AA272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A837496D89701AAF38B46A /* Pods-ZYComponentization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XB9YNJTZ2K;
@@ -284,6 +566,7 @@
 		};
 		1811108E1F4AC4DD007AA272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6412B064D32FF022F9D91496 /* Pods-ZYComponentization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XB9YNJTZ2K;
@@ -314,6 +597,7 @@
 				1811108E1F4AC4DD007AA272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

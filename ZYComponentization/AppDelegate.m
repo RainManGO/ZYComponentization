@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <CTMediator/CTMediator.h>
 @interface AppDelegate ()
 
 @end
@@ -47,5 +47,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    if ([url.scheme isEqualToString:@"zyapp"]) {
+        [[CTMediator sharedInstance] performActionWithUrl:url completion:^(NSDictionary *info) {
+            
+        }];
+    }
+    return YES;
+}
 
 @end

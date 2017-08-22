@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CTMediator+ZYDiDiMouduleActions.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (IBAction)btnClick:(UIButton *)sender {
+    UIViewController *viewController = [[CTMediator sharedInstance] kuaicheView:@{@"age":@"18"}];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
